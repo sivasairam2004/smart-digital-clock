@@ -24,9 +24,9 @@ This project displays real-time time, date, and greetings, and includes advanced
 
 ## 🛠 Technologies Used
 
-- HTML5
-- CSS3
-- JavaScript (ES6)
+- HTML (modern standard)
+- CSS (modern styling with animations & layouts)
+- JavaScript (interactive features, modern syntax)
 
 ---
 
@@ -44,3 +44,4 @@ This project displays real-time time, date, and greetings, and includes advanced
 B.Tech – Computer Science Engineering
 
 GitHub: https://github.com/sivasairam2004
+
