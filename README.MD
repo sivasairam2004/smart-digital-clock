@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Smart Digital Clock ⏰
 
 A smart and interactive digital clock web application built using **HTML, CSS, and JavaScript**.
@@ -45,4 +44,5 @@ This project displays real-time time, date, and greetings, and includes advanced
 B.Tech – Computer Science Engineering
 
 GitHub: https://github.com/sivasairam2004
+
 
