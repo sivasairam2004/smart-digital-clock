@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -48,54 +47,3 @@
 <script src="script.js"></script>
 </body>
 </html>
-=======
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Smart Digital Clock</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-<div class="background-animation">
-    <span></span><span></span><span></span><span></span><span></span>
-</div>
-
-<div class="clock-container">
-    <h1>Smart Digital Clock</h1>
-
-    <div id="time">00:00:00</div>
-    <div id="date">Loading...</div>
-    <div id="greeting"></div>
-
-    <select id="timezone" onchange="updateClock()">
-        <option value="local">Local Time</option>
-        <option value="Asia/Kolkata">India (IST)</option>
-        <option value="America/New_York">New York (EST)</option>
-        <option value="Europe/London">London (GMT)</option>
-        <option value="Asia/Tokyo">Tokyo (JST)</option>
-    </select>
-
-    <div class="alarm">
-        <input type="time" id="alarmTime">
-        <input type="text" id="alarmLabel" placeholder="Alarm Name (optional)">
-        <select id="alarmSoundSelect">
-            <option value="https://www.soundjay.com/misc/sounds/bell-ringing-05.mp3">Bell</option>
-            <option value="https://www.soundjay.com/button/sounds/beep-07.mp3">Beep</option>
-            <option value="https://www.soundjay.com/button/sounds/button-3.mp3">Button</option>
-        </select>
-        <button onclick="setAlarm()">Set Alarm</button>
-        <button onclick="stopAlarm()" class="stop-btn">Stop Alarm</button>
-    </div>
-
-    <p id="alarmStatus"></p>
-    <ul id="alarmList"></ul>
-
-    <button class="mode-btn" onclick="toggleMode()">Dark / Light Mode</button>
-</div>
-
-<script src="script.js"></script>
-</body>
-</html>
->>>>>>> 6474196a9f882f552ec332a5eaf3126670560339
